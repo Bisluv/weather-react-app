@@ -15,7 +15,7 @@
   padding: 0;
    text-align: left;
 }
- ul {
+ .searchButton ul {
   margin-top: 19px;
 list-style-type: none;
   margin: 0;
