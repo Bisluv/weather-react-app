@@ -13,7 +13,7 @@ export default function SearchButton() {
   let [city, setCity] = useState("");
   let [place, setPlace] = useState("");
 
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3f3f6a56464b33fee04fd138eccf4968&units=metric`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3f3f6a56464b33fee04fd138eccf4968&units=met ric`;
 
   function handleUpdate(event) {
     event.preventDefault();
